@@ -12,6 +12,28 @@ body {
 
 /* Utils */
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hh{
+  font-size: 60px;
+}
+
+.hm{
+  font-size: 35px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.text{
+  font-size: 15px;
+  line-height: 20px;
+  margin: auto 0;
+  line-height: 25px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,7 +60,8 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #255EE9;
+  color: white;
 }
 
 /* # Navbar */
@@ -54,16 +77,23 @@ header {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
 }
 
 .navbar-menu {
   flex-grow: 1;
   text-align: center;
+  justify-content: space-around;
 }
 
 .navbar-actions {
   text-align: right;
+}
+
+button{
+  background-color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 40%;
 }
 
 /* # Jumbotron */
@@ -71,7 +101,10 @@ header {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
+  background-image: url(img/jumbo.png); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+
 
   display: flex;
   justify-content: center;
@@ -81,12 +114,13 @@ header {
   width: 50%;
   /* height: 100%; */
   /* margin: 0 auto; */
-  background-color: violet;
+  text-align: center;
 }
+
+
 
 /* # Main & sections */
 section {
-  padding: 50px;
   height: 600px;
 }
 
@@ -96,12 +130,14 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  padding-left: 20px;
+  padding-top: 50px;
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  justify-content: flex-start;
+
 }
 
 .flex > .full-col {
