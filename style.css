@@ -15,6 +15,23 @@ body {
 a{
   text-decoration: none;
   color: white;
+  margin-bottom: 40px;
+}
+.mac{
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20%;
+  margin-right: 80px;
+
+}
+
+.microsoft{
+  background-color: black;
+  padding: 10px;
+  border-radius: 20%;  
+
 }
 
 .hh{
@@ -30,7 +47,7 @@ a{
 .text{
   font-size: 15px;
   line-height: 20px;
-  margin: auto 0;
+  margin-bottom: 30px;
   line-height: 25px;
 }
 
@@ -64,6 +81,25 @@ header {
   color: white;
 }
 
+.big{
+padding-left: 30px;
+padding-right: 30px;
+text-align: center;
+}
+
+h2{
+  background-image: url(img/stars.svg);
+  margin-top: 10px;
+  background-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mac2{
+  border-radius: 20%;
+  padding: 10px;
+  background-color:slategrey;
+
+}
 /* # Navbar */
 
 .navbar {
@@ -120,9 +156,6 @@ button{
 
 
 /* # Main & sections */
-section {
-  height: 600px;
-}
 
 section > .container {
   height: 100%;
