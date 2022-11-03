@@ -22,15 +22,18 @@ a{
   background-color: lightgray;
   padding: 10px;
   margin-top: 30px;
-  border-radius: 20%;
+  border-radius: 10px;
+  display: inline-block;
   margin-right: 80px;
 
 }
 
+
 .microsoft{
   background-color: black;
   padding: 10px;
-  border-radius: 20%;  
+  border-radius: 10px;
+  display: inline-block;  
 
 }
 
@@ -74,6 +77,7 @@ a{
 
 .bg-gray {
   background-color: lightgray;
+  padding-top: 10px;
 }
 
 header {
@@ -87,17 +91,26 @@ padding-right: 30px;
 text-align: center;
 }
 
+.bh{
+
+  margin-top: 10px;
+}
+
+
 h2{
   background-image: url(img/stars.svg);
   margin-top: 10px;
-  background-size: 50px;
   margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .mac2{
   border-radius: 20%;
   padding: 10px;
   background-color:slategrey;
+  border-radius: 10px;
+  display: inline-block;
 
 }
 /* # Navbar */
@@ -129,7 +142,7 @@ button{
   background-color: white;
   border: 0;
   padding: 10px;
-  border-radius: 40%;
+  border-radius: 20px;
 }
 
 /* # Jumbotron */
@@ -226,4 +239,11 @@ footer {
 .footer-bottom > * {
   padding: 5px 10px;
   background-color: yellow;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
